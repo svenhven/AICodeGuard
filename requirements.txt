@@ -1,4 +1,7 @@
-flask==2.3.2
-torch==2.0.1
-transformers==4.35.2
-requests==2.31.0
+flask==3.0.3
+torch==2.6.0
+transformers==4.46.0
+requests==2.32.3
+numpy==2.2.3
+matplotlib==3.9.2
+seaborn==0.13.2
