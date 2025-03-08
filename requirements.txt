@@ -1,0 +1,4 @@
+flask==2.3.2
+torch==2.0.1
+transformers==4.35.2
+requests==2.31.0
