@@ -1,7 +1,7 @@
 from flask import Flask, request, jsonify, send_from_directory
 from ai_model import CodeAnalyzer
 
-app = Flask(__name__, static_folder="static")
+app = Flask(__name__, static_folder="static")  # Pastikan static_folder="static"
 analyzer = CodeAnalyzer()
 
 @app.route("/review", methods=["POST"])
